@@ -3,3 +3,5 @@ src="../assets/3Dmodels/Saleeq_Beef_glb.glb"
 gltf-model="../assets/3Dmodels/magnemite/scene.gltf"
 gltf-model="./assets/magnemite/scene.gltf"
 
+longitude: 39.788108; latitude: 21.376368;
+
