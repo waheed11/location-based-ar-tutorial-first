@@ -1,0 +1,5 @@
+src="../assets/3Dmodels/Saleeq_Beef_glb.glb"
+
+gltf-model="../assets/3Dmodels/magnemite/scene.gltf"
+gltf-model="./assets/magnemite/scene.gltf"
+
