@@ -6,12 +6,33 @@ window.onload = () => {
 function staticLoadPlaces() {
    return [
        {
-           name: 'Magnemite',
+           name: 'edge1',
            location: {
-               lat: 21.376478,
-               lng: 39.788786,
+               lat: 21.376923,
+               lng: 39.788834,
            }
        },
+       {
+        name: 'edge2',
+        location: {
+            lat: 21.376911,
+            lng: 39.788599,
+        }
+    },
+    {
+        name: 'edge3',
+        location: {
+            lat: 21.376402,
+            lng: 39.788674,
+        }
+    },
+    {
+        name: 'edge4',
+        location: {
+            lat: 21.376412,
+            lng: 39.788910,
+        }
+    }
    ];
 }
 
@@ -28,8 +49,8 @@ function renderPlaces(places) {
       // model.setAttribute('rotation', '0 180 0');
      //  model.setAttribute('animation-mixer', '');
       // model.setAttribute('scale', '20, 20');
-      model.setAttribute('width', '3');
-      model.setAttribute('height', '3');
+     // model.setAttribute('width', '3');
+     // model.setAttribute('height', '3');
        model.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
        });
