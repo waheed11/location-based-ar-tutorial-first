@@ -27,8 +27,8 @@ function renderPlaces(places) {
        model.setAttribute('src', './assets/map-marker.png');
       // model.setAttribute('rotation', '0 180 0');
      //  model.setAttribute('animation-mixer', '');
-       model.setAttribute('scale', '20, 20');
-
+      // model.setAttribute('scale', '20, 20');
+     // model.setAttribute('width', '2');
        model.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
        });
