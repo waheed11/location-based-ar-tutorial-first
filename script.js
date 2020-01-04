@@ -71,7 +71,16 @@ function renderPlaces(places) {
 
         setModel(models[modelIndex], model);
 
+<<<<<<< Updated upstream
         model.setAttribute('animation-mixer', '');
+=======
+       let model = document.createElement('a-entity');
+       model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+       model.setAttribute('a-image', './assets/map-marker.png');
+       //model.setAttribute('rotation', '0 180 0');
+      // model.setAttribute('animation-mixer', '');
+       model.setAttribute('scale', '0.5 0.5 0.5');
+>>>>>>> Stashed changes
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
