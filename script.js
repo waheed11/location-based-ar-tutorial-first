@@ -49,9 +49,9 @@ function renderPlaces(places) {
       // model.setAttribute('name', place.name);
       // model.setAttribute('rotation', '0 180 0');
      //  model.setAttribute('animation-mixer', '');
-       model.setAttribute('scale', '200, 200');
-      //model.setAttribute('width', '3');
-      //model.setAttribute('height', '3');
+      // model.setAttribute('scale', '200, 200');
+      model.setAttribute('width', '30');
+      model.setAttribute('height', '30');
        model.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
        });
