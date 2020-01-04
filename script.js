@@ -22,12 +22,12 @@ function renderPlaces(places) {
        let latitude = place.location.lat;
        let longitude = place.location.lng;
 
-       let model = document.createElement('a-entity');
+       let model = document.createElement('a-image');
        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-       model.setAttribute('a-image', './assets/map-marker.png');
-       model.setAttribute('rotation', '0 180 0');
-       model.setAttribute('animation-mixer', '');
-       model.setAttribute('scale', '5.5 5.5 5.5');
+       model.setAttribute('src', '../assets/map-marker.png');
+      // model.setAttribute('rotation', '0 180 0');
+     //  model.setAttribute('animation-mixer', '');
+       model.setAttribute('scale', '20, 20');
 
        model.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
