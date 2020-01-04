@@ -49,7 +49,7 @@ function renderPlaces(places) {
       // model.setAttribute('name', place.name);
       // model.setAttribute('rotation', '0 180 0');
      //  model.setAttribute('animation-mixer', '');
-      // model.setAttribute('scale', '20, 20');
+       model.setAttribute('scale', '20, 20');
       //model.setAttribute('width', '3');
       //model.setAttribute('height', '3');
        model.addEventListener('loaded', () => {
