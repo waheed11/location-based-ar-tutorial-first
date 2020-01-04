@@ -29,7 +29,7 @@ function renderPlaces(places) {
      //  model.setAttribute('animation-mixer', '');
       // model.setAttribute('scale', '20, 20');
       model.setAttribute('width', '3');
-      model.setAttribute('height', '1.5');
+      model.setAttribute('height', '3');
        model.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
        });
