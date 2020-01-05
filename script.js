@@ -8,29 +8,29 @@ function staticLoadPlaces() {
        {
            name: 'edge1',
            location: {
-               lat: 21.376923,
-               lng: 39.788834,
+               lat: 21.376566,
+               lng: 39.788325,
            }
        },
        {
         name: 'edge2',
         location: {
-            lat: 21.376911,
-            lng: 39.788599,
+            lat: 21.376366,
+            lng: 39.788368,
         }
     },
     {
         name: 'edge3',
         location: {
-            lat: 21.376402,
-            lng: 39.788674,
+            lat: 21.376381,
+            lng: 39.788485,
         }
     },
     {
         name: 'edge4',
         location: {
-            lat: 21.376412,
-            lng: 39.788910,
+            lat: 21.376561,
+            lng: 39.788437,
         }
     }
    ];
