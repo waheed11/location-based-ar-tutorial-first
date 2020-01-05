@@ -8,31 +8,59 @@ function staticLoadPlaces() {
        {
            name: 'edge1',
            location: {
-               lat: 21.376566,
-               lng: 39.788325,
+               lat: 21.360474,
+               lng: 39.663316,
            }
        },
        {
         name: 'edge2',
         location: {
-            lat: 21.376366,
-            lng: 39.788368,
+            lat: 21.361217,
+            lng: 39.663846,
         }
     },
     {
         name: 'edge3',
         location: {
-            lat: 21.376381,
-            lng: 39.788485,
+            lat: 21.361996,
+            lng: 39.664339,
         }
     },
     {
         name: 'edge4',
         location: {
-            lat: 21.376561,
-            lng: 39.788437,
+            lat: 21.362836,
+            lng: 39.665026,
         }
-    }
+    },
+    {
+        name: 'edge5',
+        location: {
+            lat: 21.363515,
+            lng: 39.665884,
+        }
+    },
+    {
+     name: 'edge6',
+     location: {
+         lat: 21.363927,
+         lng: 39.666657,
+     }
+ },
+ {
+     name: 'edge7',
+     location: {
+         lat: 21.364266,
+         lng: 39.667600,
+     }
+ },
+ {
+     name: 'edge8',
+     location: {
+         lat: 21.364606,
+         lng: 39.669767,
+     }
+ }
    ];
 }
 
