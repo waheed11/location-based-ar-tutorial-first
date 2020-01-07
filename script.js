@@ -60,7 +60,14 @@ function staticLoadPlaces() {
          lat: 21.364606,
          lng: 39.669767,
      }
- }
+ },
+ {
+    name: 'testSound',
+    location: {
+        lat: 21.376414,
+        lng: 39.788172,
+    }
+}
    ];
 }
 
